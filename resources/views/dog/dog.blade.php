@@ -22,13 +22,12 @@
     </head>
     <body class="antialiased">
         <div>
-            <h1>{{$name . ' ' . $surname}}</h1>
+            <h1>{{$name}}</h1>
             <li>Age: {{$age}}</li>
-            <li>Role: {{$role}}</li>
+            <li>Breed: {{$breed}}</li>
         </div>
         <div>
-        
-        <a href="{{route('dog')}}"> >>Click Chiara's Dog<<</a>
+        <a href="{{route('home')}}"> >>Click Home<<</a>
         </div>
     </body>
 </html>

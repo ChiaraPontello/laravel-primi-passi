@@ -22,3 +22,12 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+Route::get('/dog', function () {
+    $data = [
+        'name' => 'Strauss',
+        'age' => '5',
+        'breed' => 'Bovaro del Bernese',
+    ];
+    return view('dog.dog', $data);
+})->name('dog');
